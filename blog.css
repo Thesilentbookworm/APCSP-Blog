@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body { 
+    margin: 0;
+    font-family: Amatic SC;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.a2 {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cover {
+    height: 50vh;
+    background: url(https://www.asianscientist.com/wp-content/uploads/bfi_thumb/space-315uqsztl4woiv3nk6xi4g.jpg?);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cover h1 {
+    margin: 0;
+    color: white;
+    font-size: 5.5rem;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    background: #ccc;
+}
+
+.blog-title {
+    font-size: 3rem;
+}
+
+.blog-date {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.blog-content {
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+      

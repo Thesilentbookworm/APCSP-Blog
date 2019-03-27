@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    
+    <body>
+    <div class="navbar">
+        <h1>APCSP Blog</h1>
+    </div>
+    
+    <div class="main">
+        <div class="blog-post">
+            <h1 class="blog-title"><a href="blog1.html">Explore Task 1 - 3D Printing</a></h1>
+            <p class="blog-date">August 17, 2018</p>
+            <p class="blog-lead">3D Printing has changed the way human beings </p>
+            
+        </div>
+        
+        <div> 
+            <h1 class="blog-title"><a href="blog2.html">Explore Task 2 - </a></h1>
+            <p class="blog-date">March 6th, 2018</p>
+            <p class="blog-lead">_____ has changed the way human beings </p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        
+    </div>
+    
+    </body>
+</html>
+
+                <a href="blog1.html">
+                <div class="blog-highlight">
+                    <img src="https://www.richardvanhooijdonk.com/wp-content/uploads/2019/01/shutterstock_1181691862.jpg" />
+                    
+                    <div>
+                        <h3>3D-Printing</h3>
+                        <p>In case you have not read my first blog, you can read it here. This blog was based on the impact of 3D-Printing.</p>                        
+                    </div>
+                    
+                </div>
+                </a>
+                
+                <div class="blog-highlight">
+                    <img src="https://as2.ftcdn.net/jpg/00/75/46/65/500_F_75466546_rVmsHSE1PR64qJzg2ZP4kuSXCwBfxLfe.jpg" />
+                   
+                    <div>
+                        <h3> </h3>
+                        <p class = "p2"> 
+                        
+                        </p>        
+                        
+                        <h3 class= "h3">Sources:</h3>
+        <ul class= "ul">
+          <li><a href="https://www.prosancons.com/internet/pros-and-cons-of-twitter/" target="_blank">https://www.prosancons.com</a></li>
+          <li><a href="https://60secondmarketer.com/blog/2018/11/26/the-pros-and-cons-of-twitter-for-your-business/" target="_blank">https://60secondmarketer.com</a></li>
+          <li> <a href="https://www.open.edu/openlearn/science-maths-technology/computing-ict/has-twitters-role-political-influence-been-overstated" target="_blank">https://www.open.edu</a></li>
+          
+        </ul>
+        
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body { 
+    margin: 0;
+    font-family: Amatic SC;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    height: 50vh;
+    background: url(https://www.asianscientist.com/wp-content/uploads/bfi_thumb/space-315uqsztl4woiv3nk6xi4g.jpg?);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar h1 {
+    margin: 0;
+    color: white;
+    font-size: 5.5rem;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    background: #ccc;
+}
+
+.blog-title {
+    font-size: 3rem;
+}
+
+.blog-date {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.blog-lead {
+    color: black;
+    font-size: 1.5rem;
+}
